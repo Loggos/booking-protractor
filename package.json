@@ -1,0 +1,23 @@
+{
+  "name": "bookin_protractor",
+  "version": "1.0.0",
+  "description": "Protractor JS framework template for booking project",
+  "main": "index.js",
+  "dependencies": {
+    "protractor": "5.1.2",
+    "webdriver-manager": ">=7.0.1",
+    "lodash": "4.17.4",
+    "moment": "^2.9.0",
+    "jasmine-reporters": "2.0.4",
+    "jasmine-spec-reporter": "*",
+    "jasmine2-custom-message": "*",
+    "log4js" : "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "call node node_modules/protractor/bin/webdriver-manager update",
+    "run-test": "call node_modules/.bin/protractor ./Config/protractorChrome.conf.js"
+  },
+  "author": "Iegor Zabielin",
+  "license": "ISC"
+}
